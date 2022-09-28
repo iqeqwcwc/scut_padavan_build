@@ -40,8 +40,8 @@ jobs:
     name: build
     runs-on: ubuntu-20.04
     env:
-      build_variant: ${{ matrix.build_variant }}
-      targets: ${{ matrix.targets }}
+      build_variant: mt7621
+      targets: RM2100
     strategy:
       matrix:
         include:
